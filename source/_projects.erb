@@ -1,0 +1,23 @@
+<div class="card my-3">
+<div class="card-body py-2">
+<h1 class="card-title text-center">Projects</h1>
+<div class="card-text">
+<% data.projects.each_with_index do |row, index| %>
+<dl class="row mb-0<%= index.zero? ? "" : " border-top pt-2" %>">
+  <dt class="col-sm-2">
+    <%= row.first %>
+  </dt>
+  <dd class="col-sm-10">
+    <% row.last.contents.each do |entity| %>
+      <% if entity.tag %>
+      <<%= entity.tag %><% if entity.attributes then entity.attributes.each do |attribute, value| %> <%= attribute.sub('_','') %>="<%= value %>"<% end end %><%= entity.contents ? "" : "/" %>><% if entity.contents %><%= entity.contents %></<%= entity.tag %>><% end %>
+      <% else %>
+        <%= entity.contents %>
+      <% end #if tag %>
+    <% end #contents#each %>
+  </dd>
+</dl>
+<% end #projects#each %>
+</div>
+</div>
+</div>

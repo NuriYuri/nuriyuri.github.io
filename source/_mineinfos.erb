@@ -1,0 +1,16 @@
+<% data.mineinfo.each do |row| %>
+<dl class="row mb-0">
+  <dt class="col-sm-4">
+    <%= row.first %>
+  </dt>
+  <dd class="col-sm-8">
+    <% row.last.contents.each do |entity| %>
+      <% if entity.tag %>
+      <<%= entity.tag %><% if entity.attributes then entity.attributes.each do |attribute, value| %> <%= attribute.sub('_','') %>="<%= value %>"<% end end %><%= entity.contents ? "" : "/" %>><% if entity.contents %><%= entity.contents %></<%= entity.tag %>><% end %>
+      <% else %>
+        <%= entity.contents %>
+      <% end #if tag %>
+    <% end #contents#each %>
+  </dd>
+</dl>
+<% end #mineinfo#each %>

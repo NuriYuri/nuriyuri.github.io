@@ -1,0 +1,17 @@
+---
+- colsize: 3
+  contents:
+    - tag: img
+      contents: 
+      attributes: 
+        src: images/photo.jpg
+        _class: img-thumbnail mx-auto d-block
+    - tag: h2
+      contents: Nouri Youri
+      attributes:
+        title: "Nuri Yuri is my pseudonym"
+        data-toggle: tooltip
+        _class: text-primary text-uppercase text-center
+- colsize: 9
+  contents:
+  partial: mineinfos

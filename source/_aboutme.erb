@@ -1,0 +1,18 @@
+<div class="card mt-3">
+<div class="card-body py-2">
+<h1 class="card-title text-center">About Me</h1>
+<div class="row card-text">
+<% data.aboutme.each do |col| %>
+  <div class="col-sm-<%= col.colsize %>">
+  <% if col.contents %>
+  <% col.contents.each do |entity| %>
+    <<%= entity.tag %><% if entity.attributes then entity.attributes.each do |attribute, value| %> <%= attribute.sub('_', '') %>="<%= value %>"<% end end %><%= entity.contents ? "" : "/" %>><% if entity.contents %><%= entity.contents %></<%= entity.tag %>><% end %>
+  <% end #contents#each %>
+  <% else %>
+    <%= partial col.partial %>
+  <% end #if %>
+  </div>
+<% end #aboutme#each %>
+</div>
+</div>
+</div>

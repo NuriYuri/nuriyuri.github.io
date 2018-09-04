@@ -1,0 +1,15 @@
+---
+- title: Home
+  link: /
+- title: Projects
+  link: 
+  dropdown:
+    - title: LiteRGSS
+      link: https://psdk.pokemonworkshop.fr/litergss/
+    - title: RubyFmod
+      link: https://github.com/NuriYuri/Ruby-Fmod#ruby-fmod
+- title: Gems
+  link:
+  dropdown:
+    - title: NuriGame::DataQueryHandler
+      link: https://rubygems.org/gems/nuri_game-data_query_handler

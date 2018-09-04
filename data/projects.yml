@@ -1,0 +1,25 @@
+---
+- - LiteRGSS
+  - contents:
+    - tag: p
+      contents: LiteRGSS is a kind of clone of the <a href="https://ja.wikipedia.org/wiki/RGSS" target="_blank">RGSS</a> using <a href="https://www.sfml-dev.org">SFML</a>.
+    - tag: p
+      contents: It only copies the Sprite/Viewport system and add a lot a functionalities like the shader processing on Graphics, Viewport or ShaderedSprites.
+    - tag: p
+      contents: LiteRGSS render texts like Sprites using a Text object instead of Drawing them inside Bitmaps. (Bitmaps are not meant for drawing in LiteRGSS).
+    - tag: a
+      attributes:
+        href: https://github.com/NuriYuri/LiteRGSS
+        target: _blank
+        _class: d-block btn btn-success
+      contents: Link to the git
+- - RubyFmod
+  - contents:
+    - tag: p
+      contents: RubyFmod is a small binding of Fmod for Ruby. It helps to access to the basic functionalities of Fmod using a single FMOD::System object.
+    - tag: a
+      attributes:
+        href: https://github.com/NuriYuri/Ruby-Fmod
+        target: _blank
+        _class: d-block btn btn-success
+      contents: Link to the git

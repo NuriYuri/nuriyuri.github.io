@@ -1,0 +1,87 @@
+---
+- - LinkedIn profile
+  - contents:
+    - tag: a
+      attributes:
+        href: https://www.linkedin.com/in/youri-nouri-751468b4/
+        target: _blank
+      contents: Visit my profile
+- - Nationality
+  - contents:
+    - contents: French
+- - Education
+  - contents:
+    - tag: p
+      attributes:
+        _class: text-success
+      contents: "Master in engineering : <em>Communication Systems and Networks</em> (INSA Rennes)"
+    - tag: p
+      attributes:
+        _class: text-primary
+      contents: "Technology degree : <em>Telecoms & Networks</em> (IUT Nancy-Brabois)"
+- - Skills
+  - contents:
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-primary
+      contents: Network science
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-primary
+      contents: High Frequency communication
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-primary
+      contents: Electronics
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-primary
+      contents: PADS (PCB)
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-secondary
+      contents: Wireless communication
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-secondary
+      contents: Transformations
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-secondary
+      contents: Ruby Programming
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-secondary
+      contents: Python Programming
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-secondary
+      contents: C/C++ Programming
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-secondary
+      contents: 2D Game Making
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-secondary
+      contents: Forum Management
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-dark
+      contents: HTML
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-dark
+      contents: CSS
+    - tag: span
+      attributes: 
+        _class: badge badge-pill badge-dark
+      contents: PHP
+- - Favorite programming language
+  - contents:
+    - tag: a
+      attributes:
+        href: https://www.ruby-lang.org
+        title: Ruby
+        target: _blank
+      contents: Ruby
